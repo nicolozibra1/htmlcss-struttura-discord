@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+:root{
+    --bg-header: #255ee9;
+    --primary-color: #ffffff;
+    --bg-section: #f6f6f6;
+    --bg-footer: #23272a;
+    --lightblue: #7289da;
+}
+.debug{
+    border: 2px solid red;
+}
+
+/* BODY */
+body{
+    font-family: font-family 'Noto Sans', sans-serif;
+}
