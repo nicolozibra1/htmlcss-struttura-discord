@@ -21,7 +21,7 @@
 }
 
 .middle{
-    max-width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -63,17 +63,17 @@ ul{
     height:600px;
 }
 
+
 /* SECTION FRONTPAGE */
 .frontpage{
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
-    width: 1200px;
 }
 .front-title{
     color: var(--primary-color);
-    font-size: 60px;
     padding-bottom: 50px;
+    font-size: 60px;
 }
 .front-p{
     color: var(--primary-color);
@@ -96,14 +96,29 @@ ul{
     padding:10px 20px;
     border-radius: 20px;
 }
+
+/* SECTION SERVER */
+.server{
+    margin-top: 100px;
+    align-content: center;
+}
+.title-section{
+    font-size: 40px;
+    margin: 20px 0;
+}
 .container-lightcolor{
     background-color: var(--bg-section)
 }
 .left{
-    width: 55%;    
+    width: 60%;    
 }
 .right{
-    width: 45%;
+    width: 40%;
+
+}
+.description{
+    max-width: 400px;;
+    padding: 20px;
 }
 .voice{
     flex-flow: row-reverse wrap;
