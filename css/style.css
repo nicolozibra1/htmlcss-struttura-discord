@@ -15,8 +15,65 @@
 .debug{
     border: 2px solid red;
 }
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.middle{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* BODY */
 body{
     font-family: font-family 'Noto Sans', sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: var(--bg-header);
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+
+/* MAIN */
+.container-lightcolor{
+    background-color: var(--bg-section)
+}
+.left{
+    width: 55%;    
+}
+.right{
+    width: 45%;
+}
+.voice{
+    flex-flow: row-reverse wrap;
+}
+.center{
+    margin: auto;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: var(--bg-footer);
+    
+}
+.f-container{
+    justify-content: space-between;
+}
+
+/* ASIDE */
+aside{
+    background-color: var(--bg-footer);
+    justify-content: space-between;
+}
+
+.a-container{
+    justify-content: space-between;
 }
