@@ -26,19 +26,30 @@
 }
 /* BODY */
 body{
-    font-family: font-family 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* HEADER */
 header{
     background-color: var(--bg-header);
+    padding:20px 0;
 }
 nav{
     justify-content: space-between;
     align-items: center;
 }
 ul{
+    color: var(--primary-color);
     list-style: none;
+    gap:40px;
+}
+.login{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: black;
+    text-decoration: none;
+    padding:5px 10px;
 }
 
 /* MAIN */
