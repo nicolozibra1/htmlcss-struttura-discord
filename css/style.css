@@ -28,7 +28,7 @@
 .bttn{
     border-radius: 15px;
     text-decoration: none;
-    padding:5px 10px;
+    padding:5px 15px;
 }
 /* BODY */
 body{
@@ -50,6 +50,7 @@ ul{
     gap:40px;
 }
 .login{
+    font-weight: 600;
     background-color: var(--primary-color);
     color: black;
 }
@@ -66,30 +67,33 @@ ul{
 .frontpage{
     flex-flow: column wrap;
     justify-content: center;
-    align-content: center;
     text-align: center;
+    width: 1200px;
 }
 .front-title{
     color: var(--primary-color);
-    font-size: 40px;
-    padding: 40px;
+    font-size: 60px;
+    padding-bottom: 50px;
 }
 .front-p{
     color: var(--primary-color);
-    white-space: normal;
+    font-size: 1.4em;
+    padding-bottom: 30px;
 }
 
 .download{
+    font-weight: 600;
     color: black;
     background-color: var(--primary-color);
 }
 .openbrowser{
+    font-weight: 600;
     color: var(--primary-color);
     background-color: var(--bg-footer);
 }
 .download, .openbrowser{
     margin:10px;
-    padding:10px;
+    padding:10px 20px;
     border-radius: 20px;
 }
 .container-lightcolor{
